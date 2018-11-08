@@ -1,0 +1,23 @@
+{
+  "token_vector_width":128,
+  "extra_labels":[
+    "STREET_NAME",
+    "STREET_NAME",
+    "STREET_NAME",
+    "STREET_NAME"
+  ],
+  "hidden_width":200,
+  "beam_density":0.0,
+  "pretrained_dims":0,
+  "pretrained_vectors":null,
+  "maxout_pieces":2,
+  "hist_width":0,
+  "beam_width":1,
+  "hist_size":0,
+  "nr_class":73,
+  "cnn_maxout_pieces":3,
+  "deprecation_fixes":{
+    "vectors_name":null
+  },
+  "hidden_depth":1
+}
