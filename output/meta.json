@@ -1,41 +1,20 @@
 {
+  "lang":"en",
+  "name":"street_names_model",
+  "version":"0.0.0",
+  "spacy_version":">=2.0.16",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
   "vectors":{
     "width":0,
-    "keys":0,
     "vectors":0,
-    "name":null
+    "keys":0,
+    "name":"spacy_pretrained_vectors"
   },
-  "speed":{
-    "gpu":null,
-    "nwords":291344,
-    "cpu":5122.3040471407
-  },
-  "parent_package":"spacy",
-  "accuracy":{
-    "ents_f":85.2975560875,
-    "ents_p":84.9664503965,
-    "token_acc":99.8698372794,
-    "uas":91.7237657538,
-    "las":89.800872413,
-    "ents_r":85.6312524451,
-    "tags_acc":97.0403350292
-  },
-  "description":"English multi-task CNN trained on OntoNotes, with GloVe vectors trained on Common Crawl. Assigns word vectors, context-specific token vectors, POS tags, dependency parse and named entities.",
-  "license":"CC BY-SA 3.0",
-  "name":"street_name",
-  "spacy_version":">=2.0.0a18",
-  "version":"2.0.0",
-  "lang":"en",
-  "url":"https://explosion.ai",
-  "author":"Explosion AI",
   "pipeline":[
-    "tagger",
-    "parser",
     "ner"
-  ],
-  "email":"contact@explosion.ai",
-  "sources":[
-    "OntoNotes 5",
-    "Common Crawl"
   ]
 }
